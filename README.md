@@ -149,5 +149,13 @@ AC ANALYSIS:
 
 ![image](https://github.com/user-attachments/assets/ab40282b-221b-417f-bad5-d733ef0ac17a)
 
+RESULT:
+1.DC operating point is:(1.47v,55µ A)
+2. Gain is 1.61
 
+INFERENCE:
+
+ 1.If the Vb value is less than 1.25 V then the mosfet M1 will operates in cut-off region and does not conducts. 
+ 2. For medium gain we need to select the DC operatin gpoint in between cut-off and triode region with reference to voltage transfer characteristics graph(VTC curve). 
+ 3. In AC analysis we can seed that at starting frequecny range the graph increases as the circuit behaves as low pass filter where the coupling and bypass cpacitors acts and at some frequency range the graph becomes constant and at higher frequencies the internal capacitor or the parasitic capactor gets activated.
 
