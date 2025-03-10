@@ -7,11 +7,16 @@ common-mode noise,making it ideal for high-precision circuits including operatio
 Q: VDD=1.8V,P<=2.2mW,VICM=0.95V,VOCM=1.1V,Vp=0.4V
 
 CIRCUIT 1: 
+![ckt1](https://github.com/user-attachments/assets/1362e14b-e262-46eb-b03f-3938f7a300f5)
+
+
+
 
 
 
 
 STEP 1: Dc analysis
+![n1](https://github.com/user-attachments/assets/b34ef8cb-3d3a-41d4-89d6-e0341a649ecf)
 
 from above
 Iss=1.3mA
@@ -36,9 +41,11 @@ causing a shift in the operating point. This leads to a higher drain current, re
 in a greater voltage drop across ( RD ), which reduces ( Vo
 
 MAXIMUM I/P AND O/P SWING
+![n2](https://github.com/user-attachments/assets/8f189ce0-01d1-4a8b-8cd5-e866509ae3e1)
 
 
 GAIN
+![n3](https://github.com/user-attachments/assets/dbc28754-0cd6-4d63-8092-2818925f39ed)
 
 
 
