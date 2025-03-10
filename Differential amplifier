@@ -25,6 +25,10 @@ To set the operating point go to Configure Analysis and select Dc operating Poin
 
 
 Effect of VICM on Vout and VP
+
+
+
+
 As the common-mode input voltage ( VICM ) increases, the source voltage ( VP ) also increases,
 causing a shift in the operating point. This leads to a higher drain current, resulting
 in a greater voltage drop across ( RD ), which reduces ( Vo
