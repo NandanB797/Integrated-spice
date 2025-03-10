@@ -9,6 +9,8 @@ Q: VDD=1.8V,P<=2.2mW,VICM=0.95V,VOCM=1.1V,Vp=0.4V
 CIRCUIT 1: 
 
 
+
+
 STEP 1: Dc analysis
 
 from above
@@ -36,7 +38,7 @@ in a greater voltage drop across ( RD ), which reduces ( Vo
 MAXIMUM I/P AND O/P SWING
 
 
-
+GAIN
 
 
 
