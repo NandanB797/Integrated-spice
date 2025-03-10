@@ -1,4 +1,52 @@
+"DIFFERENTIAL AMPLIFIER"
+A differential amplifier is a fundamental building block in analog cicuit design, widely used in applications such as signal 
+amplification, noise reduction and data acquisition systems.It amplifies the difference between two  input signal while rejecting 
+common-mode noise,making it ideal for high-precision circuits including operational amplifiers and analog front end systems.
+
+
 Q: VDD=1.8V,P<=2.2mW,VICM=0.95V,VOCM=1.1V,Vp=0.4V
 
-CIRCUIT 1: B
+CIRCUIT 1: 
+
+
+STEP 1: Dc analysis
+
+from above
+Iss=1.3mA
+Id=0.61mA
+Rd=1.16kohm
+Rss=333ohm
+Vgs = vg-vp = 0.95-0.4=>0.55v
+Vov=vgs-vth = 0.55-0.366 => 0.184
+
+To set the operating point go to Configure Analysis and select Dc operating Point
+
+
+
+
+Effect of VICM on Vout and VP
+As the common-mode input voltage ( VICM ) increases, the source voltage ( VP ) also increases,
+causing a shift in the operating point. This leads to a higher drain current, resulting
+in a greater voltage drop across ( RD ), which reduces ( Vo
+
+MAXIMUM I/P AND O/P SWING
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
