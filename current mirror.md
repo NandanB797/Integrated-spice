@@ -134,9 +134,30 @@ The amplifier gain is slightly higher than expected due to small differences in 
 When the mirror ratio increases (from 1:1 to 1:2), the gain also increases as expected.
 Overall, the results closely match theoretical predictions, proving that the simulation and circuit design are working correctly.
 
+##PART B
+
+Aim : Design the differential amplifier using the same design specification as Experiment-3. Perform DC analysis,trasient and AC analysis.
+
+![Screenshot 2025-03-24 204751](https://github.com/user-attachments/assets/baea0a68-f2b5-4b5d-9b94-81c8c6b6f736)
+DC ANALYSIS:
+
+![Screenshot 2025-03-24 204827](https://github.com/user-attachments/assets/40e3468e-b52b-4331-a19e-7e0b1caa5df5)
+ TRANSIENT ANALYSIS:
+![Screenshot 2025-03-24 205029](https://github.com/user-attachments/assets/cee15c8b-bf37-4b6f-986f-31749fcd7969)
+
+![image](https://github.com/user-attachments/assets/e0157f50-f39a-4aec-bce1-aedbabfdba3c)
+
+AC ANALYSIS:
+
+![Screenshot 2025-03-24 205411](https://github.com/user-attachments/assets/57f46569-8d90-43e1-b1b2-5a88ae646e11)
+OUTPUT:
+
+![image](https://github.com/user-attachments/assets/f6a6eb70-e4c4-4e56-b48f-6bffc1a0e045)
 
 
+CONCLUSION
 
+Current mirrors play a crucial role in biasing circuits, especially in differential amplifiers, ensuring stable operation with minimal variation. By implementing NMOS current mirrors as bias voltage generators, differential amplifiers achieve better gain, stability, and power efficiency, making them a key component in modern analog IC design.
 
 
 
