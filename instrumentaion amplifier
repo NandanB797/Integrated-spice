@@ -1,4 +1,4 @@
-# Instrumentation Amplifier 
+### Instrumentation Amplifier 
 Instrumentation Amplifier (IA) is a type of differential amplifier that has been optimized for high input impedance, precise gain, and excellent common-mode rejection. 
 These characteristics make it ideal for accurately amplifying low-level signals from sensors and transducers, especially in noisy environments.
 
