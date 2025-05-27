@@ -51,7 +51,8 @@ This design enhances output swing, common-mode input range, and power efficiency
 
 
 
-XXX-X-XXXX-XXXX-X/XX/$XX.00 ©20XX IEEE
+
+![image](https://github.com/user-attachments/assets/7cb6d5ee-7e75-4de4-9575-7e6b709751a8)
 
 
 
@@ -90,6 +91,7 @@ Key Characteristics:
 •  Limited output swing, since each transistor stage consumes voltage headroom.
 •  High-speed operation due to low parasitic capacitance.
 
+![image](https://github.com/user-attachments/assets/679edd16-381f-41aa-b7b7-61cdf00c8392)
 
 
                         2.  Fig 2. Folded Cascode (OTA)
@@ -120,13 +122,21 @@ Max swing = VDD / 4 = 0.825 V
 III.	RESULT
 
 INPUT:
+
+![image](https://github.com/user-attachments/assets/44f0c9fc-b334-488e-946e-13e23fee2d40)
+
   
-          OUTPUT:
+OUTPUT:
+	  ![image](https://github.com/user-attachments/assets/d684b9fd-0a0a-4999-91fa-93109e46be32)
+
  
                    Fig .3 Folded Cascode (OTA)
 
 
 OPERATING POINTS
+![image](https://github.com/user-attachments/assets/70414eb0-ff5a-4c0f-a552-d618321a666c)
+
+
 Headings, or heads, are organizational devices that guide the reader through your paper. There are two types: component heads and text heads.
 Component heads identify the different components of your paper and are not topically subordinate to each other. Examples include Acknowledgments and References and, for these, the correct style to use is “Heading 5”. Use “figure caption” for your Figure captions, and “table head” for your table title. Run-in heads, such as “Abstract”, will require you to apply a style (in this case, italic) in addition to the style provided by the drop down menu to differentiate the head from the text.
 
@@ -141,11 +151,20 @@ Component heads identify the different components of your paper and are not topi
 
 
             TRANSIENT ANALYSIS
+
+
+     ![image](https://github.com/user-attachments/assets/15bd19c7-dbaa-4b55-abe7-94ad0d4408b5)
+
             AC ANALYSIS
+
+     ![image](https://github.com/user-attachments/assets/b74d4374-ebf8-4425-b19a-692f6cc88cfc)
+
              Fig 4. Cascode Telescopic Differential Amplifier
 
 
 OPERATING POINTS 
+
+![image](https://github.com/user-attachments/assets/f77df58d-f76b-4df6-a23b-51fab74fd267)
 
 
 
@@ -182,6 +201,26 @@ Best Use Case	High-speed, low-noise applications	Low-voltage, high swing designs
 
 
 COMPARISION TABLE :
+Specification	Telescopic Cascode Amplifier	Folded Cascode OTA
+		
+Technology Node	180 nm CMOS	180 nm CMOS
+Supply Voltage (VDD)	1.8 V	1.8 V
+DC Gain	60–80 dB	50–70 dB
+Unity Gain Bandwidth (UGB)	10–50 MHz	5–30 MHz
+Input Common-Mode Range	Narrow (~0.6–1.2 V)	Wide (~0.3–1.5 V)
+Output Swing (Peak-to-Peak)	~0.8–1.0 V	~1.2–1.4 V
+Slew Rate	Moderate (5–10 V/µs)	Higher (10–20 V/µs)
+Power Consumption	Lower (≤ 1 mW)	Moderate (1–2 mW)
+Noise Performance	Lower (better for low-noise design)	Slightly higher
+CMRR (Common-Mode Rejection)	> 60 dB	> 60 dB
+		
+Design Complexity	Moderate	Higher (more biasing branches)
+Best Use Case	High-speed, low-noise applications	Low-voltage, high swing designs
+ 
+
+
+
+
 
 
 
