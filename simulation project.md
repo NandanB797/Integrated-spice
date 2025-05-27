@@ -153,11 +153,12 @@ Component heads identify the different components of your paper and are not topi
             TRANSIENT ANALYSIS
 
 
-     ![image](https://github.com/user-attachments/assets/15bd19c7-dbaa-4b55-abe7-94ad0d4408b5)
+    ![image](https://github.com/user-attachments/assets/e5457398-4c21-4293-a7aa-70f5a3593980)
 
             AC ANALYSIS
 
-     ![image](https://github.com/user-attachments/assets/b74d4374-ebf8-4425-b19a-692f6cc88cfc)
+     !![image](https://github.com/user-attachments/assets/313f6052-f107-4a81-8f26-9b3adce125a8)
+
 
              Fig 4. Cascode Telescopic Differential Amplifier
 
